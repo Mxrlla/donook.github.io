@@ -31,10 +31,10 @@ body {
 }
 .Logo {
   position: absolute;
-  left: 235px;
-  top: -48px;
-  width: 400px;
-  height: 400px;
+  left: 325px;
+  top: 5px;
+  width: 300px;
+  height: 300px;
 }
 .Nome {
   position: absolute;
@@ -57,27 +57,65 @@ body {
   text-decoration: none;
 }
 .menu {
-  width: 35px;
-  height: 5px;
-  background-color: black;
+  width: 100px;
+  height: 0px;
+  background-color: #9f6a36;
   margin: 6px 50px;
   display: block;
   position: relative;
   top: 10px;
   text-decoration: none;
 }
+.menu img {
+  width: 30px;
+  height: 30px;
+}
+.menu_open {
+  padding: 0 0 0 2%;
+  float: right;
+  left: -210px;
+  top: 0;
+  transition: all 0.3s ease;
+  height: 100%;
+  width: 210px;
+  position: fixed;
+  left: 0px;
+  margin: 0;
+  background: #d16629;
+  border-radius: 0;
+  z-index: 0;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.menu_open ul li {
+  display: flex;
+  list-style: none;
+  margin-top: 80px;
+}
+li {
+  display: block;
+  list-style: none;
+  height: auto;
+  text-align: center;
+  margin-left: 0;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
 .navmen {
   width: 100%;
   display: flex;
   position: relative;
-  flex-wrap: wrap;
   gap: 120px;
   left: 1120px;
-  top: -35px;
+  top: -7px;
 }
 .navmen img {
   width: 17px;
   height: 17px;
+}
+.navmen .bola6 a {
+  width: 130px;
 }
 
 .bola4 {
@@ -104,15 +142,44 @@ body {
   background-color: #925835;
   border-radius: 100%;
 }
+input[type="text"],
+select {
+  width: 25%;
+  height: 25px;
+  border-radius: 15px 15px 15px 15px;
+  position: fixed;
+  left: 950px;
+  top: 200px;
+}
+#generos {
+  width: 105px;
+  height: 20px;
+  border-radius: 10px;
+  position: fixed;
+  left: 1315px;
+  top: 205px;
+  background: #d16629;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+.pesquisa {
+  position: fixed;
+  left: 955px;
+  top: 205px;
+  width: 20px;
+  height: 20px;
+}
 
 .navmen a {
+  width: 20px;
   display: flex;
-  float: left;
   padding: 12px;
-  gap: 15px;
+  gap: 19px;
   color: white;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .navmen a:hover {
@@ -163,20 +230,19 @@ body {
 .itens p {
   width: 150%;
   height: 100px;
-  margin-top: 50px;
-  margin-left: 20px;
+  margin-top: 40px;
+  margin-left: -20px;
   text-decoration: none;
   color: #000;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  left: -19px;
 }
 .itens img {
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   display: flex;
   justify-content: space-evenly;
   align-content: center;
-  margin: 28px;
+  margin: 22px;
 }
 
 .bola1 {
